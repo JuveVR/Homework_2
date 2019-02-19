@@ -1,6 +1,6 @@
 a = float(input("Please enter number A"))
 b = float(input("Please enter number B"))
-c = float(input("Please enter number C"))
+c = float(input("Please enter numcber C"))
 
 l = sorted([a, b, c])
 print(a)
