@@ -8,7 +8,7 @@ print(b)
 print(c)
 
 print(l)
-a,b,c = l[-3],l[-2],l[-1]
+a,b,c = l[0],l[1],l[2]
 
 if a <= b <= c:
     print("This is new A " + str(a))
