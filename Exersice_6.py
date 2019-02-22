@@ -4,7 +4,7 @@ c = int(input("Please enter any integer number C: "))
 
 if a == b == c:
     print("3")
-if a != b and b != c and c != a:
+elif a != b and b != c and c != a:
     print("0")
-if (a == b and c != a) or (b == c and a != b) or (c == a and b != c):
+else:
     print("2")

@@ -10,7 +10,7 @@ print(s.count("."))
 
 #1.4
 s2 = "Homework"
-print(s2.center(100," "))
+print(s2.center(100))
 
 #1.5
 print(s.title())

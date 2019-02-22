@@ -8,9 +8,7 @@ print(b)
 print(c)
 
 print(l)
-c = l[-1]
-b = l[-2]
-a = l[-3]
+a,b,c = l[-3],l[-2],l[-1]
 
 if a <= b <= c:
     print("This is new A " + str(a))
@@ -18,3 +16,4 @@ if a <= b <= c:
     print("This is new C " + str(c))
 else:
     print("You are stupid student")
+
